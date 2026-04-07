@@ -1100,7 +1100,26 @@ background: linear-gradient(to right, #111, transparent);}
     .project-label h3 {
         font-size: 2rem;
     }
-    
+    .about-content {
+        flex-direction: column; 
+        gap: 30px;
+    }
+
+    .image-wrapper {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .profile-info-overlay {
+        height: 60%;
+        background: linear-gradient(to top, rgba(0,0,0,0.95) 20%, rgba(0,0,0,0.7) 100%);
+        padding: 10px;
+    }
+
+    .profile-info-overlay p {
+        font-size: 0.9rem; 
+        margin: 5px 0;
+    }
     .project-label p {
         font-size: 1.1rem;
     }
@@ -1152,7 +1171,23 @@ background: linear-gradient(to right, #111, transparent);}
         flex-direction: column;
         text-align: center;
     }
+    .about-name {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .about-role {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .profile-info-overlay p {
+        font-size: 0.85rem;
+    }
     
+    .profile-info-overlay strong {
+        font-size: 0.7rem;
+    }
     .icon-container {
         margin-bottom: 10px;
     }
