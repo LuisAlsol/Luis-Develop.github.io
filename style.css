@@ -1104,7 +1104,26 @@ background: linear-gradient(to right, #111, transparent);}
         flex-direction: column; 
         gap: 30px;
     }
+    #about {
+        padding: 40px 20px !important;
+    }
 
+    .about-description p {
+        font-size: 1.15rem;
+        line-height: 1.6;   
+        margin-bottom: 15px;
+    }
+
+    #expertise {
+        padding-top: 40px !important;
+        padding-bottom: 20px !important; 
+    }
+
+    .card-content p, 
+    .experience-card p {
+        font-size: 1.1rem; 
+        line-height: 1.5;
+    }
     .image-wrapper {
         max-width: 320px;
         margin: 0 auto;
@@ -1180,7 +1199,23 @@ background: linear-gradient(to right, #111, transparent);}
         font-size: 1.1rem;
         text-align: center;
     }
+    #about {
+        padding: 30px 15px !important;
+    }
 
+    .about-description p {
+        font-size: 1.1rem; 
+        text-align: left;
+    }
+
+    #expertise {
+        padding-top: 30px !important;
+        padding-bottom: 10px !important; 
+    }
+
+    .card-content p {
+        font-size: 1.05rem;
+    }
     .profile-info-overlay p {
         font-size: 0.85rem;
     }
